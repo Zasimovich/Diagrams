@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-12-24T15:35:28.822Z" agent="5.0 (Macintosh)" version="20.7.4" etag="4q7yQqEUM8YP1od75gVG" type="github"><diagram id="9wzz19_lI0kt1np3V_to">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-24T15:41:27.779Z" agent="5.0 (Macintosh)" version="20.7.4" etag="HFjAJFKoFMCKpVFyiIee" type="github">
+  <diagram id="eq0U0T9s6T3am2SdXFhH" name="Page-1">
+    <mxGraphModel dx="991" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AXypJ-XyT8RTnE7xexpx-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="131" width="449" height="449" as="geometry" />
+        </mxCell>
+        <mxCell id="AXypJ-XyT8RTnE7xexpx-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="160" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="AXypJ-XyT8RTnE7xexpx-7" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="AXypJ-XyT8RTnE7xexpx-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="349" y="-450" width="450" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="AXypJ-XyT8RTnE7xexpx-10" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.6;dx=35;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="511.75" y="37.25" width="125.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AXypJ-XyT8RTnE7xexpx-12" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_peering;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="37.25" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="AXypJ-XyT8RTnE7xexpx-13" value="VPC Peering" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="529" y="79.25" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

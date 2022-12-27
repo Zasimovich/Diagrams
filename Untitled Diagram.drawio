@@ -1,30 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-12-24T15:41:27.779Z" agent="5.0 (Macintosh)" version="20.7.4" etag="HFjAJFKoFMCKpVFyiIee" type="github">
-  <diagram id="eq0U0T9s6T3am2SdXFhH" name="Page-1">
-    <mxGraphModel dx="991" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-12-27T17:26:21.960Z" agent="5.0 (Macintosh)" etag="mLFehUXLOeQwI7tT33Jz" version="20.7.4" type="github" pages="2">
+  <diagram id="eq0U0T9s6T3am2SdXFhH" name="cluster-adh-fcp">
+    <mxGraphModel dx="2363" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="AXypJ-XyT8RTnE7xexpx-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="350" y="131" width="449" height="449" as="geometry" />
+        <mxCell id="httWGm0tc_TTA6Ke2k-Y-1" value="&lt;div class=&quot;flex-1 mx-2 flex-self-center f4&quot;&gt;&lt;br&gt;      &lt;div class=&quot;d-none d-sm-block&quot;&gt;&lt;br&gt;        &lt;span class=&quot;js-repo-root text-bold&quot;&gt;&lt;span class=&quot;js-path-segment d-inline-block wb-break-all&quot;&gt;&lt;a href=&quot;https://github.com/syncier/cluster-adh-fcp&quot; data-turbo-frame=&quot;repo-content-turbo-frame&quot;&gt;&lt;span&gt;cluster-adh-fcp&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mx-1&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;js-path-segment d-inline-block wb-break-all&quot;&gt;&lt;a href=&quot;https://github.com/syncier/cluster-adh-fcp/tree/master/cluster&quot; data-turbo-frame=&quot;repo-content-turbo-frame&quot;&gt;&lt;span&gt;cluster&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;mx-1&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;js-path-segment d-inline-block wb-break-all&quot;&gt;&lt;a href=&quot;https://github.com/syncier/cluster-adh-fcp/tree/master/cluster/global&quot; data-turbo-frame=&quot;repo-content-turbo-frame&quot;&gt;&lt;span&gt;global&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;mx-1&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;js-path-segment d-inline-block wb-break-all&quot;&gt;&lt;a href=&quot;https://github.com/syncier/cluster-adh-fcp/tree/master/cluster/global/argocd-applications&quot; data-turbo-frame=&quot;repo-content-turbo-frame&quot;&gt;&lt;span&gt;argocd-applications&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;mx-1&quot;&gt;/&lt;/span&gt;&lt;strong class=&quot;final-path&quot;&gt;adhinfra--monitoring&lt;/strong&gt;&lt;span class=&quot;mx-1&quot;&gt;/&lt;/span&gt;&lt;br&gt;      &lt;/div&gt;&lt;br&gt;    &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;align=center;horizontal=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="450" width="470" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AXypJ-XyT8RTnE7xexpx-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="550" y="160" width="69" height="72" as="geometry" />
+        <mxCell id="httWGm0tc_TTA6Ke2k-Y-2" value="&lt;span class=&quot;css-truncate css-truncate-target d-block width-fit&quot;&gt;&lt;a href=&quot;https://github.com/syncier/cluster-adh-fcp/blob/master/cluster/global/argocd-applications/adhinfra--monitoring/adhinfra--monitoring-project.yaml&quot; data-turbo-frame=&quot;repo-content-turbo-frame&quot; title=&quot;adhinfra--monitoring-project.yaml&quot; class=&quot;js-navigation-open Link--primary&quot;&gt;adhinfra--monitoring-project.yaml&lt;/a&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="160" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="AXypJ-XyT8RTnE7xexpx-7" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="310" y="310" width="69" height="72" as="geometry" />
+        <mxCell id="httWGm0tc_TTA6Ke2k-Y-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="httWGm0tc_TTA6Ke2k-Y-3" target="httWGm0tc_TTA6Ke2k-Y-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AXypJ-XyT8RTnE7xexpx-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="349" y="-450" width="450" height="450" as="geometry" />
+        <mxCell id="httWGm0tc_TTA6Ke2k-Y-3" value="&lt;span class=&quot;css-truncate css-truncate-target d-block width-fit&quot;&gt;&lt;a href=&quot;https://github.com/syncier/cluster-adh-fcp/blob/master/cluster/global/argocd-applications/adhinfra--monitoring/alertmanager-config-provider-application.yaml&quot; data-turbo-frame=&quot;repo-content-turbo-frame&quot; title=&quot;alertmanager-config-provider-application.yaml&quot; class=&quot;js-navigation-open Link--primary&quot;&gt;alertmanager-config-provider-application.yaml&lt;/a&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="110" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AXypJ-XyT8RTnE7xexpx-10" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.6;dx=35;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="511.75" y="37.25" width="125.5" height="60" as="geometry" />
+        <mxCell id="httWGm0tc_TTA6Ke2k-Y-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="httWGm0tc_TTA6Ke2k-Y-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-260" y="170" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="AXypJ-XyT8RTnE7xexpx-12" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_peering;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="37.25" width="69" height="72" as="geometry" />
+        <mxCell id="httWGm0tc_TTA6Ke2k-Y-4" value="&lt;span class=&quot;css-truncate css-truncate-target d-block width-fit&quot;&gt;&lt;a href=&quot;https://github.com/syncier/cluster-adh-fcp/blob/master/cluster/global/argocd-applications/adhinfra--monitoring/blackbox-exporter-application.yaml&quot; data-turbo-frame=&quot;repo-content-turbo-frame&quot; title=&quot;blackbox-exporter-application.yaml&quot; class=&quot;js-navigation-open Link--primary&quot;&gt;blackbox-exporter-application.yaml&lt;/a&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="220" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AXypJ-XyT8RTnE7xexpx-13" value="VPC Peering" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="529" y="79.25" width="90" height="30" as="geometry" />
+        <mxCell id="httWGm0tc_TTA6Ke2k-Y-5" value="&lt;span class=&quot;css-truncate css-truncate-target d-block width-fit&quot;&gt;&lt;a href=&quot;https://github.com/syncier/cluster-adh-fcp/blob/master/cluster/global/argocd-applications/adhinfra--monitoring/cloudwatch-exporter-application.yaml&quot; data-turbo-frame=&quot;repo-content-turbo-frame&quot; title=&quot;cloudwatch-exporter-application.yaml&quot; class=&quot;js-navigation-open Link--primary&quot;&gt;cloudwatch-exporter-application.yaml&lt;/a&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="530" width="230" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="httWGm0tc_TTA6Ke2k-Y-6" value="&lt;span class=&quot;css-truncate css-truncate-target d-block width-fit&quot;&gt;&lt;a href=&quot;https://github.com/syncier/cluster-adh-fcp/blob/master/cluster/global/argocd-applications/adhinfra--monitoring/grafana-application.yaml&quot; data-turbo-frame=&quot;repo-content-turbo-frame&quot; title=&quot;grafana-application.yaml&quot; class=&quot;js-navigation-open Link--primary&quot;&gt;grafana-application.yaml&lt;/a&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="580" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="httWGm0tc_TTA6Ke2k-Y-7" value="&lt;span class=&quot;css-truncate css-truncate-target d-block width-fit&quot;&gt;&lt;a href=&quot;https://github.com/syncier/cluster-adh-fcp/blob/master/cluster/global/argocd-applications/adhinfra--monitoring/oauth2-proxy-application.yaml&quot; data-turbo-frame=&quot;repo-content-turbo-frame&quot; title=&quot;oauth2-proxy-application.yaml&quot; class=&quot;js-navigation-open Link--primary&quot;&gt;oauth2-proxy-application.yaml&lt;/a&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="630" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="httWGm0tc_TTA6Ke2k-Y-8" value="&lt;br/&gt;          &lt;br/&gt;&lt;br/&gt;          &lt;div class=&quot;flex-auto min-width-0 col-md-2 mr-3&quot; role=&quot;rowheader&quot;&gt;&lt;br/&gt;            &lt;span class=&quot;css-truncate css-truncate-target d-block width-fit&quot;&gt;&lt;a href=&quot;https://github.com/syncier/cluster-adh-fcp/blob/master/cluster/global/argocd-applications/adhinfra--monitoring/prometheus-application.yaml&quot; data-turbo-frame=&quot;repo-content-turbo-frame&quot; title=&quot;prometheus-application.yaml&quot; class=&quot;js-navigation-open Link--primary&quot;&gt;prometheus-application.yaml&lt;/a&gt;&lt;/span&gt;&lt;br/&gt;          &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="700" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="httWGm0tc_TTA6Ke2k-Y-10" value="&lt;br/&gt;          &lt;br/&gt;&lt;br/&gt;          &lt;div class=&quot;flex-auto min-width-0 col-md-2 mr-3&quot; role=&quot;rowheader&quot;&gt;&lt;br/&gt;            &lt;span class=&quot;css-truncate css-truncate-target d-block width-fit&quot;&gt;&lt;a href=&quot;https://github.com/syncier/cluster-adh-fcp/blob/master/cluster/global/argocd-applications/adhinfra--monitoring/prometheus-crds-application.yaml&quot; data-turbo-frame=&quot;repo-content-turbo-frame&quot; title=&quot;prometheus-crds-application.yaml&quot; class=&quot;js-navigation-open Link--primary&quot;&gt;prometheus-crds-application.yaml&lt;/a&gt;&lt;/span&gt;&lt;br/&gt;          &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="750" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="httWGm0tc_TTA6Ke2k-Y-11" value="&lt;b&gt;AppProject&lt;/b&gt;&lt;br&gt;&lt;b&gt;name&lt;/b&gt;: &lt;span class=&quot;pl-s&quot;&gt;ns-adhinfra--monitoring&lt;/span&gt;&lt;br&gt;&lt;b&gt;destination&lt;/b&gt;&lt;br&gt;namespace: &lt;b&gt;&lt;span class=&quot;pl-s&quot;&gt;adhinfra--monitoring&lt;/span&gt;&lt;/b&gt;&lt;br&gt;namespace: &lt;b&gt;&lt;span class=&quot;pl-s&quot;&gt;kube-system&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="80" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="httWGm0tc_TTA6Ke2k-Y-12" value="&lt;span class=&quot;pl-s&quot;&gt;Application&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;pl-ent&quot;&gt;path&lt;/span&gt;: &lt;b&gt;&lt;span class=&quot;pl-s&quot;&gt;cluster/namespaces/adhinfra--monitoring/alertmanager-config-provider&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="70" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="httWGm0tc_TTA6Ke2k-Y-16" value="&lt;span class=&quot;pl-ent&quot;&gt;path&lt;/span&gt;: &lt;b&gt;&lt;span class=&quot;pl-s&quot;&gt;cluster/namespaces/adhinfra--monitoring/blackbox-exporter&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="200" width="380" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8plOvVDuEc0RTBgplio-" name="cluster-adh-staging">
+    <mxGraphModel dx="1513" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
